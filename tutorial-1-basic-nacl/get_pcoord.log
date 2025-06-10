@@ -1,0 +1,9 @@
++ cd /home/jpr122/projects/gsoc_westpa_streaming/tutorial-1-basic-nacl
++ cd /home/jpr122/projects/gsoc_westpa_streaming/tutorial-1-basic-nacl/bstates/01
++ cat pcoord.init
++ cp /home/jpr122/projects/gsoc_westpa_streaming/tutorial-1-basic-nacl/bstates/01/bstate.gro /tmp/tmp36lj_bj9/basis.gro
++ cp /home/jpr122/projects/gsoc_westpa_streaming/tutorial-1-basic-nacl/bstates/01/bstate.trr /tmp/tmp36lj_bj9/basis.trr
++ cp /home/jpr122/projects/gsoc_westpa_streaming/tutorial-1-basic-nacl/bstates/01/bstate.edr /tmp/tmp36lj_bj9/basis.edr
++ cp /home/jpr122/projects/gsoc_westpa_streaming/tutorial-1-basic-nacl/bstates/01/bstate.gro /tmp/tmpjdl2_2g0/parent.gro
++ cp /home/jpr122/projects/gsoc_westpa_streaming/tutorial-1-basic-nacl/bstates/01/bstate.trr /tmp/tmpjdl2_2g0/parent.trr
++ cp /home/jpr122/projects/gsoc_westpa_streaming/tutorial-1-basic-nacl/bstates/01/bstate.edr /tmp/tmpjdl2_2g0/parent.edr

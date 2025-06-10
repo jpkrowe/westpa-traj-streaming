@@ -5,5 +5,7 @@
 # you may need to create this first (see install instructions)
 
 #conda activate westpa2
+export GMX=$(which gmx_imd)
+
 export WEST_SIM_ROOT="$PWD"
 export SIM_NAME=$(basename $WEST_SIM_ROOT)

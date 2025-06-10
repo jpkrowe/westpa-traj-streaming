@@ -1,8 +1,8 @@
 REMARK   1 CREATED WITH OPENMM 7.3.1, 2019-08-15
 CRYST1   37.535   37.535   37.535 109.47 109.47 109.47 P 1           1 
 MODEL        1
-HETATM    1 NA   NA  A   1       2.544  29.137  17.347  1.00  0.00          Na  
-HETATM    2 CL   CL  A   2      11.479  21.088  14.945  1.00  0.00          Cl  
+HETATM    1 Na+  Na+ A   1       2.544  29.137  17.347  1.00  0.00          Na  
+HETATM    2 Cl-  Cl- A   2      11.479  21.088  14.945  1.00  0.00          Cl  
 HETATM    3  O   HOH A   3      22.596  22.210   9.253  1.00  0.00           O  
 HETATM    4  H1  HOH A   3      23.047  23.052   9.197  1.00  0.00           H  
 HETATM    5  H2  HOH A   3      23.292  21.575   9.423  1.00  0.00           H  

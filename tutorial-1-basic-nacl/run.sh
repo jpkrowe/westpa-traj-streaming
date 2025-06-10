@@ -7,4 +7,5 @@ source env.sh
 rm -f west.log
 
 # Run w_run
+# w_run --work-manager processes --debug "$@" &> west.log
 w_run --work-manager processes "$@" &> west.log

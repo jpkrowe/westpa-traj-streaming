@@ -1,8 +1,10 @@
 import mdtraj
 import numpy
 
-parent = mdtraj.load('parent.xml', top='bstate.pdb')
-traj = mdtraj.load('seg.dcd', top='bstate.pdb')
+# parent = mdtraj.load('parent.xml', top='bstate.pdb')
+# traj = mdtraj.load('seg.dcd', top='bstate.pdb')
+parent = mdtraj.load('parent.gro', top='bstate.gro')
+traj = mdtraj.load('seg.trr', top='bstate.gro')
 dist_parent = mdtraj.compute_distances(parent, [[0,1]], periodic=True)
 dist_traj = mdtraj.compute_distances(traj, [[0,1]], periodic=True)
 dist = numpy.append(dist_parent,dist_traj)
