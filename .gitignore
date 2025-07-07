@@ -1,3 +1,7 @@
+/*
+!.gitignore
+!tutorial-1-basic-nacl/
 traj_segs
 seg_logs
 west.h5
+!*.ipynb
