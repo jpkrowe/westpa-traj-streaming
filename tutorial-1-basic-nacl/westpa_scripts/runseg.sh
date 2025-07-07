@@ -27,7 +27,7 @@ $GMX grompp -f md.mdp -c parent.gro -e parent.edr -p nacl.top \
 # Propagate the segment using gmx mdrun
 # $GMX mdrun -s   seg.tpr -o seg.trr -c  seg.gro -e seg.edr \
   # -cpo seg.cpt -g seg.log -nt 1 -imdwait -imdport $PORT &
-python $WEST_SIM_ROOT/westpa_scripts/run_gromacs.py
+python $WEST_SIM_ROOT/westpa_scripts/run_gromacs_with_streaming.py
 
 #Calculate pcoord with MDAnalysis
 # python $WEST_SIM_ROOT/common_files/get_distance_streaming.py $PORT 

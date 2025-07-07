@@ -1,7 +1,7 @@
 Updating system with the options from the configuration file
 Maximum wallclock time: 3 days, 0:00:00
 
-Thu Jul  3 11:46:47 2025
+Mon Jul  7 16:07:30 2025
 Iteration 1 (100 requested)
 Beginning iteration 1
 5 segments remain in iteration 1 (5 total)
@@ -15,150 +15,71 @@ per-segment probability dynamic range (kT): 0
 norm = 1, error in norm = 0 (0*epsilon)
 Waiting for segments to complete...
 Iteration completed successfully
-Iteration wallclock: 0:00:20.732437, cputime: 0:01:42.120754
+Iteration wallclock: 0:00:23.579797, cputime: 0:01:41.728882
 
 
-Thu Jul  3 11:47:07 2025
+Mon Jul  7 16:07:53 2025
 Iteration 2 (100 requested)
 Beginning iteration 2
-10 segments remain in iteration 2 (10 total)
-2 of 21 (9.523810%) active bins are populated
-per-bin minimum non-zero probability:       0.4
-per-bin maximum probability:                0.6
-per-bin probability dynamic range (kT):     0.405465
-per-segment minimum non-zero probability:   0.0666667
-per-segment maximum non-zero probability:   0.2
-per-segment probability dynamic range (kT): 1.09861
-norm = 1, error in norm = 0 (0*epsilon)
+15 segments remain in iteration 2 (15 total)
+3 of 21 (14.285714%) active bins are populated
+per-bin minimum non-zero probability:       0.2
+per-bin maximum probability:                0.4
+per-bin probability dynamic range (kT):     0.693147
+per-segment minimum non-zero probability:   0.04
+per-segment maximum non-zero probability:   0.133333
+per-segment probability dynamic range (kT): 1.20397
+norm = 1, error in norm = -1.11022e-16 (-0.5*epsilon)
 Waiting for segments to complete...
 Iteration completed successfully
-Iteration wallclock: 0:00:22.542721, cputime: 0:03:37.433400
+Iteration wallclock: 0:00:24.669620, cputime: 0:05:24.120308
 
 
-Thu Jul  3 11:47:30 2025
+Mon Jul  7 16:08:18 2025
 Iteration 3 (100 requested)
 Beginning iteration 3
 25 segments remain in iteration 3 (25 total)
 5 of 21 (23.809524%) active bins are populated
-per-bin minimum non-zero probability:       0.0666667
-per-bin maximum probability:                0.466667
-per-bin probability dynamic range (kT):     1.94591
-per-segment minimum non-zero probability:   0.0133333
+per-bin minimum non-zero probability:       0.04
+per-bin maximum probability:                0.493333
+per-bin probability dynamic range (kT):     2.51231
+per-segment minimum non-zero probability:   0.008
 per-segment maximum non-zero probability:   0.133333
-per-segment probability dynamic range (kT): 2.30259
+per-segment probability dynamic range (kT): 2.81341
 norm = 1, error in norm = 0 (0*epsilon)
 Waiting for segments to complete...
-Iteration completed successfully
-Iteration wallclock: 0:00:27.247565, cputime: 0:09:22.122222
-
-
-Thu Jul  3 11:47:57 2025
-Iteration 4 (100 requested)
-Beginning iteration 4
-40 segments remain in iteration 4 (40 total)
-8 of 21 (38.095238%) active bins are populated
-per-bin minimum non-zero probability:       0.0266667
-per-bin maximum probability:                0.273333
-per-bin probability dynamic range (kT):     2.32728
-per-segment minimum non-zero probability:   0.00533333
-per-segment maximum non-zero probability:   0.1
-per-segment probability dynamic range (kT): 2.93119
-norm = 1, error in norm = 0 (0*epsilon)
-Waiting for segments to complete...
-Process worker-60-7d1a3f99fcb0:
-Process worker-63-7d1a3f99fcb0:
-Process worker-41-7d1a3f99fcb0:
-Process worker-42-7d1a3f99fcb0:
-Process worker-34-7d1a3f99fcb0:
-Process worker-55-7d1a3f99fcb0:
-Process worker-50-7d1a3f99fcb0:
-Process worker-51-7d1a3f99fcb0:
-Process worker-14-7d1a3f99fcb0:
-Process worker-28-7d1a3f99fcb0:
+Process worker-63-7b66e5a83cb0:
+Process worker-53-7b66e5a83cb0:
+Process worker-58-7b66e5a83cb0:
+Process worker-51-7b66e5a83cb0:
+Process worker-49-7b66e5a83cb0:
+Process worker-50-7b66e5a83cb0:
+Process worker-54-7b66e5a83cb0:
+Process worker-40-7b66e5a83cb0:
+Process worker-34-7b66e5a83cb0:
+Process worker-59-7b66e5a83cb0:
+Process worker-26-7b66e5a83cb0:
+Process worker-37-7b66e5a83cb0:
+Process worker-52-7b66e5a83cb0:
+Process worker-32-7b66e5a83cb0:
+Process worker-45-7b66e5a83cb0:
+Process worker-44-7b66e5a83cb0:
+Process worker-48-7b66e5a83cb0:
+Process worker-4-7b66e5a83cb0:
 Traceback (most recent call last):
 Traceback (most recent call last):
 Traceback (most recent call last):
 Traceback (most recent call last):
-Process worker-12-7d1a3f99fcb0:
-Process worker-2-7d1a3f99fcb0:
-Process worker-22-7d1a3f99fcb0:
+Traceback (most recent call last):
+Process worker-31-7b66e5a83cb0:
+Process worker-2-7b66e5a83cb0:
+Traceback (most recent call last):
+Process worker-30-7b66e5a83cb0:
 Traceback (most recent call last):
 Traceback (most recent call last):
 Traceback (most recent call last):
-Process worker-26-7d1a3f99fcb0:
-Traceback (most recent call last):
-Process worker-29-7d1a3f99fcb0:
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-Traceback (most recent call last):
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Process worker-10-7d1a3f99fcb0:
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
-    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
-                                         ~~~~~~~~~~~~~~~~~~~^^
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
-    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
-                                         ~~~~~~~~~~~~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
-    with self._rlock:
-         ^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
-    with self._rlock:
-         ^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-Process worker-31-7d1a3f99fcb0:
-KeyboardInterrupt
-KeyboardInterrupt
 Traceback (most recent call last):
 Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
-    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
-                                         ~~~~~~~~~~~~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
-    with self._rlock:
-         ^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-KeyboardInterrupt
-Traceback (most recent call last):
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
-    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
-                                         ~~~~~~~~~~~~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
-    with self._rlock:
-         ^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-KeyboardInterrupt
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
     self.run()
     ~~~~~~~~^^
@@ -180,6 +101,7 @@ KeyboardInterrupt
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
     with self._rlock:
          ^^^^^^^^^^^
+Process worker-12-7b66e5a83cb0:
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
     with self._rlock:
          ^^^^^^^^^^^
@@ -191,6 +113,107 @@ KeyboardInterrupt
            ~~~~~~~~~~~~~~~~~~~~~~~^^
 KeyboardInterrupt
 KeyboardInterrupt
+Traceback (most recent call last):
+Process worker-43-7b66e5a83cb0:
+Process worker-5-7b66e5a83cb0:
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+Process worker-24-7b66e5a83cb0:
+Process worker-42-7b66e5a83cb0:
+KeyboardInterrupt
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+KeyboardInterrupt
+Process worker-17-7b66e5a83cb0:
+Process worker-41-7b66e5a83cb0:
+Process worker-8-7b66e5a83cb0:
+Process worker-38-7b66e5a83cb0:
+Process worker-33-7b66e5a83cb0:
+Process worker-19-7b66e5a83cb0:
+Process worker-6-7b66e5a83cb0:
+Process worker-0-7b66e5a83cb0:
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Process worker-14-7b66e5a83cb0:
 Traceback (most recent call last):
 Traceback (most recent call last):
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
@@ -208,6 +231,42 @@ Traceback (most recent call last):
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
     return self._semlock.__enter__()
            ~~~~~~~~~~~~~~~~~~~~~~~^^
+Traceback (most recent call last):
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Process worker-28-7b66e5a83cb0:
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+Traceback (most recent call last):
 KeyboardInterrupt
 Traceback (most recent call last):
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
@@ -225,97 +284,40 @@ Traceback (most recent call last):
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
     return self._semlock.__enter__()
            ~~~~~~~~~~~~~~~~~~~~~~~^^
-KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
     self.run()
     ~~~~~~~~^^
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
-    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
-                                         ~~~~~~~~~~~~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
-    with self._rlock:
-         ^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-KeyboardInterrupt
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
     message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
                                          ~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
     with self._rlock:
          ^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-KeyboardInterrupt
-Process worker-39-7d1a3f99fcb0:
 Traceback (most recent call last):
-Process worker-9-7d1a3f99fcb0:
-Traceback (most recent call last):
-Traceback (most recent call last):
-Process worker-27-7d1a3f99fcb0:
-Traceback (most recent call last):
-Process worker-7-7d1a3f99fcb0:
-Traceback (most recent call last):
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
-    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
-                                         ~~~~~~~~~~~~~~~~~~~^^
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
     with self._rlock:
          ^^^^^^^^^^^
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
     return self._semlock.__enter__()
            ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+Traceback (most recent call last):
 KeyboardInterrupt
-Process worker-20-7d1a3f99fcb0:
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
-    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
-                                         ~~~~~~~~~~~~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
-    with self._rlock:
-         ^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-KeyboardInterrupt
-Traceback (most recent call last):
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
-    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
-                                         ~~~~~~~~~~~~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
-    with self._rlock:
-         ^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
 KeyboardInterrupt
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
     self.run()
@@ -323,36 +325,20 @@ KeyboardInterrupt
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
   File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
     message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
                                          ~~~~~~~~~~~~~~~~~~~^^
+Traceback (most recent call last):
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
     with self._rlock:
          ^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-KeyboardInterrupt
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
     self.run()
     ~~~~~~~~^^
-Process worker-0-7d1a3f99fcb0:
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
-    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
-                                         ~~~~~~~~~~~~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
-    with self._rlock:
-         ^^^^^^^^^^^
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
     return self._semlock.__enter__()
            ~~~~~~~~~~~~~~~~~~~~~~~^^
-KeyboardInterrupt
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -363,10 +349,760 @@ KeyboardInterrupt
     res = self._recv_bytes()
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/connection.py", line 216, in recv_bytes
     buf = self._recv_bytes(maxlength)
+KeyboardInterrupt
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/connection.py", line 430, in _recv_bytes
     buf = self._recv(4)
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/connection.py", line 395, in _recv
     chunk = read(handle, remaining)
+KeyboardInterrupt
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process worker-25-7b66e5a83cb0:
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Process worker-11-7b66e5a83cb0:
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Process worker-16-7b66e5a83cb0:
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Process worker-62-7b66e5a83cb0:
+Process worker-55-7b66e5a83cb0:
+Process worker-9-7b66e5a83cb0:
+Process worker-27-7b66e5a83cb0:
+Process worker-15-7b66e5a83cb0:
+Process worker-60-7b66e5a83cb0:
+Process worker-36-7b66e5a83cb0:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process worker-46-7b66e5a83cb0:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process worker-29-7b66e5a83cb0:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+KeyboardInterrupt
+Process worker-13-7b66e5a83cb0:
+Process worker-35-7b66e5a83cb0:
+Process worker-47-7b66e5a83cb0:
+Process worker-18-7b66e5a83cb0:
+Process worker-3-7b66e5a83cb0:
+Process worker-7-7b66e5a83cb0:
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+Process worker-20-7b66e5a83cb0:
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Process worker-23-7b66e5a83cb0:
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Process worker-61-7b66e5a83cb0:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+Process worker-10-7b66e5a83cb0:
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+Process worker-57-7b66e5a83cb0:
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+Traceback (most recent call last):
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Process worker-21-7b66e5a83cb0:
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Process worker-22-7b66e5a83cb0:
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+Process worker-39-7b66e5a83cb0:
+Process worker-56-7b66e5a83cb0:
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+KeyboardInterrupt
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
+    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
+                                         ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
+    with self._rlock:
+         ^^^^^^^^^^^
+  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+Process worker-1-7b66e5a83cb0:
 KeyboardInterrupt
 Traceback (most recent call last):
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
@@ -433,39 +1169,6 @@ KeyboardInterrupt
     return self._semlock.__enter__()
            ~~~~~~~~~~~~~~~~~~~~~~~^^
 KeyboardInterrupt
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
-    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
-                                         ~~~~~~~~~~~~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
-    with self._rlock:
-         ^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-KeyboardInterrupt
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
-    self.run()
-    ~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/processes.py", line 79, in task_loop
-    message, task_id, fn, args, kwargs = self.task_queue.get()[:5]
-                                         ~~~~~~~~~~~~~~~~~~~^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 100, in get
-    with self._rlock:
-         ^^^^^^^^^^^
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-KeyboardInterrupt
-Process worker-5-7d1a3f99fcb0:
 Traceback (most recent call last):
   File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
     self.run()
@@ -500,18 +1203,3 @@ KeyboardInterrupt
            ~~~~~~~~~~~~~~~~~~~~~~~^^
 KeyboardInterrupt
 interrupted; shutting down
-Exception ignored in atexit callback <function _exit_function at 0x7d1a3f7b4540>:
-Traceback (most recent call last):
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/util.py", line 352, in _exit_function
-    _run_finalizers()
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/util.py", line 292, in _run_finalizers
-    finalizer()
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/util.py", line 216, in __call__
-    res = self._callback(*self._args, **self._kwargs)
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/multiprocessing/queues.py", line 217, in _finalize_join
-    thread.join()
-  File "/home/jpr122/anaconda3/envs/gsoc/lib/python3.13/threading.py", line 1092, in join
-    self._handle.join(timeout)
-  File "/home/jpr122/Installed_programs/westpa/src/westpa/work_managers/core.py", line 55, in sigint_handler
-    self.prior_sigint_handler(signum, frame)
-KeyboardInterrupt: 
